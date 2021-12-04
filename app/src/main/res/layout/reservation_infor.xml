@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnDeleteReservation"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/custom_buttom"
+        android:text="@string/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/txtFinish"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/labelLocation"
+        app:layout_constraintTop_toBottomOf="@+id/txtStart" />
+
+    <TextView
+        android:id="@+id/lblBookID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="BOOK ID :"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+
+        android:id="@+id/labelID"
+        android:layout_width="60dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="RES. ID :"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/labelName"
+
+        android:layout_width="92dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="F. NAME :"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelID" />
+
+    <TextView
+        android:id="@+id/labelSurnameRes"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="SURNAME :"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelName" />
+
+    <TextView
+        android:id="@+id/txtSurname"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/labelSurnameRes"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtReservationID"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/labelID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/labelName"
+        app:layout_constraintTop_toBottomOf="@+id/txtReservationID" />
+
+    <TextView
+        android:id="@+id/labelCategory"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="START AT:"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelSurnameRes" />
+
+    <TextView
+        android:id="@+id/labelLocation"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="FINISH AT"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelCategory" />
+
+    <TextView
+        android:id="@+id/txtStart"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/labelCategory"
+        app:layout_constraintTop_toBottomOf="@+id/labelSurnameRes" />
+
+
+    <TextView
+        android:id="@+id/txtPhoneNo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/txtFinish" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_bright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dotted_line" />
+
+    <TextView
+        android:id="@+id/txtBookId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toEndOf="@+id/lblBookID2"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhoneNo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="PHONE :"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelLocation" />
+</android.support.constraint.ConstraintLayout>

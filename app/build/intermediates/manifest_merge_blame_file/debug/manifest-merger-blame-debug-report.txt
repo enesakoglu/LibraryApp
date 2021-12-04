@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gProject.librarymanagament"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:6:5-44:19
+12        android:allowBackup="true"
+12-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:7:13-39
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\enesa\.gradle\caches\transforms-2\files-2.1\31ff5526e03ece50f7855327888f5c69\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:8:13-47
+16        android:label="@string/app_name"
+16-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:9:13-45
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:10:13-58
+18        android:supportsRtl="true"
+18-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:11:13-39
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:12:13-44
+21        <activity android:name="com.gProject.librarymanagament.MainActivity" >
+21-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:15:9-21:20
+21-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:15:19-77
+22            <intent-filter>
+22-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:16:13-20:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:17:17-69
+23-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:17:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:19:17-77
+25-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:19:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.gProject.librarymanagament.UserManagement.MakeReservation" />
+28-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:22:9-107
+28-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:22:19-95
+29        <activity android:name="com.gProject.librarymanagament.UserManagement.Books_for_user" />
+29-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:23:9-106
+29-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:23:19-94
+30        <activity android:name="com.gProject.librarymanagament.LibraryManagement.BOOKS" />
+30-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:24:9-100
+30-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:24:19-88
+31        <activity android:name="com.gProject.librarymanagament.LibraryManagement.ManageReservation" />
+31-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:25:9-82
+31-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:25:19-70
+32        <activity android:name="com.gProject.librarymanagament.LibraryManagement.Reservations" />
+32-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:26:9-107
+32-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:26:19-95
+33        <activity android:name="com.gProject.librarymanagament.LibraryManagement.ManageBook" />
+33-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:27:9-105
+33-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:27:19-93
+34        <activity android:name="com.gProject.librarymanagament.LibraryManagement.ManageBook" />
+34-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:27:9-105
+34-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:27:19-93
+35        <activity
+35-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:31:9-34:72
+36            android:name="com.gProject.librarymanagament.LibraryMenuForUser"
+36-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:32:17-81
+37            android:label="@string/title_activity_library_menu_for_user"
+37-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:33:17-77
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:34:17-60
+39        <activity
+39-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:35:9-38:72
+40            android:name="com.gProject.librarymanagament.LibraryMenu"
+40-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:36:17-74
+41            android:label="@string/title_activity_library_menu"
+41-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:37:17-68
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:38:17-60
+43        <activity android:name="com.gProject.librarymanagament.RegisterForUser" />
+43-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:39:9-92
+43-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:39:19-80
+44        <activity android:name="com.gProject.librarymanagament.LoginForUserActivity" />
+44-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:40:9-97
+44-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:40:19-85
+45        <activity android:name="com.gProject.librarymanagament.Register" />
+45-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:41:9-85
+45-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:41:19-73
+46        <activity android:name="com.gProject.librarymanagament.LoginActivity" />
+46-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:42:9-90
+46-->C:\Users\enesa\AndroidStudioProjects\LibraryApp\app\src\main\AndroidManifest.xml:42:19-78
+47    </application>
+48
+49</manifest>

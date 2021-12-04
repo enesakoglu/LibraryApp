@@ -1,0 +1,2 @@
+com/gProject/librarymanagament/BuildConfig.java
+ com.gProject.librarymanagament.BuildConfig
